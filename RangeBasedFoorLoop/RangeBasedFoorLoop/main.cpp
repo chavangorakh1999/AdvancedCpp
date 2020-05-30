@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+using namespace std;
 int main()
 {
     std::vector<int> variable = {10, 21,32, 43, 54, 65};//Declaring vector integer variable
