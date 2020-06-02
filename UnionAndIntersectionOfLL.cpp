@@ -13,10 +13,10 @@ struct Node
 
 /* A utility function to insert a node at the 
 begining of a linked list*/
-void push(struct Node** head_ref, int new_data) 
+void push(struct Node** head, int data) 
 { 
 	/* allocate node */
-	struct Node* new_node = 
+	struct Node* mew_node = 
 		(struct Node*) malloc(sizeof(struct Node)); 
 
 	/* put in the data */
