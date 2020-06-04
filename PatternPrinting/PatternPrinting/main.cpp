@@ -80,7 +80,7 @@ using namespace std;
 int main()
 {
     int numberOfRows,row,column;
-    int ch=64;
+    //int ch=64;
     cout<<"Enter number of rows";
     cin>>numberOfRows;
 //    for(row=1;row<=numberOfRows;row++)
@@ -225,14 +225,68 @@ int main()
 //      *****
 //       ***
 //        *
-    for(row=numberOfRows;row>=1;row--)
-        {
-            for(column=numberOfRows;column>=row;column--)
-            {
-                cout<<(char)(ch+row)<<" ";
-            }
-    
-            cout<<endl;
-        }
-    
+//
+//    for(row=numberOfRows;row>=1;row--)
+//    {
+//        for(column=numberOfRows-1;column>=row;column--)
+//               {
+//                   cout<<"  "<<" ";
+//               }
+//        for(column=(row*2)-1;column>=1;column--)
+//        {
+//            cout<<"* "<<" ";
+//        }
+//        cout<<endl;
+//
+//    }
+//    Enter number of rows5
+//    *  *  *  *  *  *  *  *  *
+//       *  *  *  *  *  *  *
+//          *  *  *  *  *
+//             *  *  *
+//                *
+//    Enter number of rows5
+//    *  *  *  *  *
+//       *  *  *  *
+//          *  *  *
+//             *  *
+//                *
+
+//    for(row=1;row<=numberOfRows;row++)
+//    {
+//
+//        for(column=numberOfRows-1;column>=row;column--)
+//               {
+//                   cout<<"  "<<" ";
+//               }
+//        for(column=((row*2)-1);column>=1;column--)
+//        {
+//            cout<<"* "<<" ";
+//        }
+//        cout<<endl;
+//
+//    }
+//    for(row=numberOfRows-1;row>=1;row--)
+//    {
+//        for(column=numberOfRows-1;column>=row;column--)
+//               {
+//                   cout<<"  "<<" ";
+//               }
+//        for(column=(row*2)-1;column>=1;column--)
+//        {
+//            cout<<"* "<<" ";
+//        }
+//        cout<<endl;
+//
+//    }
+//    Enter number of rows5
+//                *
+//             *  *  *
+//          *  *  *  *  *
+//       *  *  *  *  *  *  *
+//    *  *  *  *  *  *  *  *  *
+//       *  *  *  *  *  *  *
+//          *  *  *  *  *
+//             *  *  *
+//                *
 }
