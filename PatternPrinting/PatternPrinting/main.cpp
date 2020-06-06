@@ -289,48 +289,48 @@ int main()
 //          *  *  *  *  *
 //             *  *  *
 //                *
-     for(row=1;row<=numberOfRows;row++)
-                    {
-                        for(column=numberOfRows;column>=row;column--)
-                        {
-                            cout<<"* "<<" ";
-                        }
-                        for(column=1;column<=row-1;column++)
-                        {
-                            cout<<"  "<<" ";
-                        }
-                        for(column=1;column<=row-1;column++)
-                        {
-                            cout<<"  "<<" ";
-                        }
-                        for(column=numberOfRows;column>=row;column--)
-                        {
-                            cout<<"* "<<" ";
-                        }
-    
-                        cout<<endl;
-                    }
-    for(row=numberOfRows-1;row>=1;row--)
-                    {
-                        for(column=numberOfRows;column>=row;column--)
-                        {
-                            cout<<"* "<<" ";
-                        }
-                        for(column=1;column<=row-1;column++)
-                        {
-                            cout<<"  "<<" ";
-                        }
-                        for(column=1;column<=row-1;column++)
-                        {
-                            cout<<"  "<<" ";
-                        }
-                        for(column=numberOfRows;column>=row;column--)
-                        {
-                            cout<<"* "<<" ";
-                        }
-    
-                        cout<<endl;
-                    }
+//     for(row=1;row<=numberOfRows;row++)
+//                    {
+//                        for(column=numberOfRows;column>=row;column--)
+//                        {
+//                            cout<<"* "<<" ";
+//                        }
+//                        for(column=1;column<=row-1;column++)
+//                        {
+//                            cout<<"  "<<" ";
+//                        }
+//                        for(column=1;column<=row-1;column++)
+//                        {
+//                            cout<<"  "<<" ";
+//                        }
+//                        for(column=numberOfRows;column>=row;column--)
+//                        {
+//                            cout<<"* "<<" ";
+//                        }
+//
+//                        cout<<endl;
+//                    }
+//    for(row=numberOfRows-1;row>=1;row--)
+//                    {
+//                        for(column=numberOfRows;column>=row;column--)
+//                        {
+//                            cout<<"* "<<" ";
+//                        }
+//                        for(column=1;column<=row-1;column++)
+//                        {
+//                            cout<<"  "<<" ";
+//                        }
+//                        for(column=1;column<=row-1;column++)
+//                        {
+//                            cout<<"  "<<" ";
+//                        }
+//                        for(column=numberOfRows;column>=row;column--)
+//                        {
+//                            cout<<"* "<<" ";
+//                        }
+//
+//                        cout<<endl;
+//                    }
     
 //Enter number of rows5
 //*  *  *  *  *  *  *  *  *  *
@@ -342,5 +342,53 @@ int main()
 //*  *  *              *  *  *
 //*  *  *  *        *  *  *  *
 //*  *  *  *  *  *  *  *  *  *
+    for(row=1;row<=numberOfRows;row++)
+                       {
+                           for(column=numberOfRows;column>=row;column--)
+                           {
+                               cout<<"  "<<" ";
+                           }
+                           for(column=1;column<=row-1;column++)
+                           {
+                               cout<<"* "<<" ";
+                           }
+//                           for(column=numberOfRows;column>=row;column--)
+//                           {
+//                               cout<<"* "<<" ";
+//                           }
+       
+                           cout<<endl;
+                       }
+    for(row=numberOfRows-1;row>=1;row--)
+                        {
+                            for(column=numberOfRows;column>=row;column--)
+                            {
+                                cout<<"  "<<" ";
+                            }
+                            for(column=1;column<=row-1;column++)
+                            {
+                                cout<<"* "<<" ";
+                            }
+//                            for(column=1;column<=row-1;column++)
+//                            {
+//                                cout<<"  "<<" ";
+//                            }
+//                            for(column=numberOfRows;column>=row;column--)
+//                            {
+//                                cout<<"* "<<" ";
+//                            }
+    
+                            cout<<endl;
+                        }
+//    Enter number of rows5
+//                
+//             *
+//          *  *
+//       *  *  *
+//    *  *  *  *
+//       *  *  *
+//          *  *
+//             * 
+    
     
 }
