@@ -11,30 +11,35 @@ using namespace std;
 
 int main()
 {
-    cout.precision(5);
-    cout<<124.5678<<endl;
-    cout<<"hi"<<endl;
+//    cout.precision(5);
+//    cout<<124.5678<<endl;
+//    cout<<"hi"<<endl;
+//
+//    cout.width(10);
+//    cout<<124.5678<<endl;
+//    cout.width(10);
+//    cout<<"hi"<<endl;
+//
+//    cout.fill('*');
+//
+//    cout.width(10);
+//    cout<<124.5678<<endl;
+//    cout.width(10);
+//    cout<<"hi"<<endl;
+//
+//    cout.setf(ios::left);
+//
+//    cout.fill('*');
+//
+//    cout.width(10);
+//    cout<<124.5678<<endl;
+//    cout.width(10);
+//    cout<<"hi"<<endl;
     
-    cout.width(10);
-    cout<<124.5678<<endl;
-    cout.width(10);
-    cout<<"hi"<<endl;
-    
-    cout.fill('*');
-    
-    cout.width(10);
-    cout<<124.5678<<endl;
-    cout.width(10);
-    cout<<"hi"<<endl;
-    
-    cout.setf(ios::left);
-    
-    cout.fill('*');
-    
-    cout.width(10);
-    cout<<124.5678<<endl;
-    cout.width(10);
-    cout<<"hi"<<endl;
+    //set flag positive or negative
+    cout.setf(ios :: showpos | ios :: showpoint);
+    cout<<10.4<<endl;
+    cout<<50.9<<endl;
     
     return 0;
 }
