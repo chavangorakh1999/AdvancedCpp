@@ -37,7 +37,12 @@ int main()
 //    cout<<"hi"<<endl;
     
     //set flag positive or negative
-    cout.setf(ios :: showpos | ios :: showpoint);
+//    cout.setf(ios :: showpos | ios :: showpoint);
+//    cout<<10.4<<endl;
+//    cout<<50.9<<endl;
+    
+    cout.setf(ios :: showpos , ios :: showpos);
+    cout.unsetf(ios :: showpos);
     cout<<10.4<<endl;
     cout<<50.9<<endl;
     
