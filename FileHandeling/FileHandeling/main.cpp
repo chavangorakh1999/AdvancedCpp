@@ -17,5 +17,10 @@ int main()
     if(!file.is_open())
         cout<<"Error finding file";
     else
+    {
+        file<<"Just writing string to file"<<endl;
+        file<<"can we do that ?"<<endl;
+        
         file.close();
+    }
 }
