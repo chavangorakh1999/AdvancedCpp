@@ -12,8 +12,19 @@ using namespace std;
 
 int main()
 {
+//    fstream file;
+//    file.open("Readme.txt",ios :: in | ios :: out | ios :: trunc);
+//    if(!file.is_open())
+//        cout<<"Error finding file";
+//    else
+//    {
+//        file<<"Just writing string to file"<<endl;
+//        file<<"can we do that ?"<<endl;
+//
+//        file.close();
+//    }
     fstream file;
-    file.open("Readme.txt",ios :: in | ios :: out | ios :: trunc);
+    file.open("Readme.txt",ios :: in | ios :: out | ios :: app);
     if(!file.is_open())
         cout<<"Error finding file";
     else
