@@ -7,9 +7,35 @@
 //
 
 #include <iostream>
+#include<fstream>
+#include<cstring>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main()
+{
+    char input[100];
+    strcpy(input,"We are good to go.");
+    
+    fstream file("grc.bin",ios :: binary | ios :: in | ios :: out | ios :: trunc);
+    if(!file.is_open())
+    {
+        cout<<"Error while opening the file";
+    }
+    else
+    {
+    int length= strlen(input);
+    for(int counter=0 ; counter <= length ; counter ++)
+    {
+        file.put(input[counter]);
+    }
+        
+        file.seekg(0);
+        char ch;
+        while(file.good())
+        {
+            file.get(ch);
+        }
+    }
     return 0;
 }
