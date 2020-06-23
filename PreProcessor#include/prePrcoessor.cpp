@@ -7,7 +7,7 @@ int main()
 {
     person p("grc",21);
     p.display();
-    person p1("Jay",12);
-    p1.display();
+    person p("Jay",12);
+    p.display();
     return 0;
 }
