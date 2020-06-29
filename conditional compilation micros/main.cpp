@@ -10,6 +10,10 @@ int main()
 {
     #if OS == Win
     cout<<"Using windows"<<endl;
+    #elif OS == Mac
+        cout<<"Mac user";
+    #else 
+        cout<<"Linux user";
     #endif
 
     cout<<"Noraml print";
