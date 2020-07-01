@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+#include "function.cpp"
 
 template <typename genere> void display(genere x)
 {
@@ -21,10 +22,15 @@ template <typename t1 ,typename t2> void Display(t1 x, t2 y)
 
 int main()
 {
-    display(10);
-    display(1.5);
-    display("GRCSR");
-    Display(1.5,"GRC");
+    // display(10);
+    // display(1.5);
+    // display("GRCSR");
+    // Display(1.5,"GRC");
+    WhatYouGot(15);
+    WhatYouGot("Grc");
+    WhatYouGot(17.4);
+    WhatYouGot("grc","SR");
+
 
     return 0;
 }
