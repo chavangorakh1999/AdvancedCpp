@@ -24,7 +24,7 @@ void findString(string line,string c)
 int main()
 {
     string line("He I got you");
-    string ch("o");
+    string ch("you");
 
     findString(line,ch);
 }
